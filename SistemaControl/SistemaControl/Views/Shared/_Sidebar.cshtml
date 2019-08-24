@@ -1,0 +1,36 @@
+﻿<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">MENU DE NAVEGACION</li>
+            <li class="treeview-">
+                <a href="/Home/Index")"><i class="fa fa-dashboard"></i> <span>Dashboard</span>                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-folder"></i> <span>Pages</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="@Url.Action("Index","Negocios")"><i class="fa fa-building"></i>Ver Negocios</a></li>
+                    <li><a href="@Url.Action("Index","Llamadas")"><i class="fa fa-phone"></i>Ver Llamadas</a></li>
+                </ul>
+            </li>
+            <li class="treeview-">
+                <a href="/Negocios/Create">
+                    <i class="fa fa-building"></i> <span>Registrar Negocio</span>
+                </a>
+            </li>
+            <li class="treeview-">
+                <a href="/Llamadas/Create">
+                    <i class="fa fa-phone"></i> <span>Registrar Llamadas</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
